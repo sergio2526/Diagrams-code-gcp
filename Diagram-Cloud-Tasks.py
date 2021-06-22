@@ -4,7 +4,7 @@ from diagrams.gcp.storage import GCS
 from diagrams.gcp.devtools import Tasks
 from diagrams.gcp.compute import Run
 
-with Diagram("Diagram Cloud Tasks", show=False):
+with Diagram("Diagram Cloud Tasks", show=False, filename="./Diagrams/Cloud-Tasks"):
     Storage_Input = GCS("Cloud Storage") 
 
     with Cluster("App"):
